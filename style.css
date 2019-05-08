@@ -10,7 +10,7 @@ h2{
 
 h3{
     color: rgb(55, 136, 118);
-    padding-left:130px;
+    padding-left:100px;
     padding-top:30px;
 }
 
@@ -92,4 +92,8 @@ body{
   }
 }
 
-
+@media (min-width: 768px){
+    .container {
+        max-width: 992px !important;
+    }
+    }
